@@ -1,40 +1,41 @@
 # Building a Tic-Tac-Toe with  PHP CodeIgniter and vue js
+---
 This simple project implement TicTacToe game with PHP CodeIgniter 3.x framework and vue.js 2.x
 
 ---
 ## Features
-- Has two options to play
-
-**a-** Single player (play with PC) and it has three levels 
-**b-** Multiplayers (two players)
-
-- Take a name for theplayers and begin a new game.
-- Use basic styling for the grid using bootstrap3 css.
-- Allow the players to click the grid to make their move, and highlight when the game is finished.
-- Store the results of each match in a MySQL database, and view the results.
-- Use the bootstrap framework to make it responsive in the following ways:
-- On mobile device, make the game full screen.
-- On desktop browser have the results of the last 5 matches on the right hand side – do this in bootstrap, not php.
+* Has two options to play:
+	* **Single player** (play with PC) and it has three levels 
+	* **Multiplayers** (two players)
+* Take a name for theplayers and begin a new game.
+* Use basic styling for the grid using bootstrap3 css.
+* Allow the players to click the grid to make their move, and highlight when the game is finished.
+* Store the results of each match in a MySQL database, and view the results.
+* Use the bootstrap framework to make it responsive in the following ways:
+* On mobile device, make the game full screen.
+* On desktop browser have the results of the last 5 matches on the right hand side – do this in bootstrap, not php.
 
 ---------------------------------------------
 ## Installation
 
-1- Create database.
-2- Run the sql scripts in the file  **/public/db-mysql/mydb.sql** 
-3- Open the **/application/config/database.php**  and change the configuration of database as in your system
-4- if you use apatche or ngnix set the default web site or virual site to folder **/public/**
-5- if you not used web server then open a terminal or command prompt and run the following command inside the ** /public** folder 
-``
-	php -S localhost:8000
-``
+1. Create database.
+2. Run the sql scripts in the file  **/public/db-mysql/mydb.sql** 
+3. Open the **/application/config/database.php**  and change the configuration of database as in your system
+4. if you use apatche or ngnix set the default web site or virual site to folder **/public/**
+5. if you not used web server then open a terminal or command prompt and run the following command inside the ** /public** folder 
+
+```
+		php -S localhost:8000
+```
+
 and open your browser to http://localhost:8000
 
 --------------------------------------------
 ## Specifications
 
-- This project I run it under PHP 7.1.  for older PHP version I don’t know
-- This project test implements TicTacToe game by using MySQL DB, PHP CodeIgniter-3 framework, Bootstrap CSS, and VUE JS framework.
-- In PHP I have used the technical of the json post and the vue js for the user actions.
+* This project I run it under PHP 7.1.  for older PHP version I don’t know
+* This project test implements TicTacToe game by using MySQL DB, PHP CodeIgniter-3 framework, Bootstrap CSS, and VUE JS framework.
+* In PHP I have used the technical of the json post and the vue js for the user actions.
 
 -------------------------------------------------
 

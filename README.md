@@ -30,6 +30,7 @@ and open your browser to http://localhost:8000
 
 --------------------------------------------
 ## Specifications
+
 This project I run it under PHP 7.1.  for older PHP version I don’t know
 This project test implements TicTacToe game by using MySQL DB, PHP CodeIgniter-3 framework, Bootstrap CSS, and VUE JS framework.
 In PHP I have used the technical of the json post and the vue js for the user actions.

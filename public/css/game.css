@@ -1,0 +1,43 @@
+html, body, .container-fluid {            
+    height:100%;
+    padding:0px;margin:0px;
+}
+.mainpanel {
+    width:100%;
+    height:100%;
+    padding:0px;margin:0px;
+}
+.leftpanel {
+    height:100%;            
+    background-color:#ccc;
+}
+.rightpanel {
+    height:100%;
+    background-color:#ddd;
+}
+.tic-panel{
+  border: solid 2px black;
+  margin: .4vw 0;
+  background: #66A5AD;
+  padding: .4vw;
+}
+
+.tic-box{
+  border: solid black 1px;
+  height:33.33%; 
+  font-size: 5vw;
+  background: #6AB187;
+  text-align: center;
+  color: lavender;
+}
+.tic-box:hover{
+  background: #20948B;
+}
+.box {
+    border:1px solid #000;
+    height:100%;
+    text-align: center; 
+    width:33.33%;            
+    font-size:60px;
+    cursor:pointer;
+}

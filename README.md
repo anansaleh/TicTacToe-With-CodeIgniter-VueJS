@@ -1,12 +1,11 @@
-# TicTacToe-With-CodeIgniter-VueJS
-Building a Tic-Tac-Toe with  PHP CodeIgniter and vue js
+# Building a Tic-Tac-Toe with  PHP CodeIgniter and vue js
 This simple project implement TicTacToe game with PHP CodeIgniter 3.x framework and vue.js 2.x
 
 ---
 ## Features
 - Has two options to play
 **a-** Single player (play with PC) and it has three levels 
-**b- ** Multiplayers (two players)
+**b- **Multiplayers (two players)
 - Take a name for theplayers and begin a new game.
 - Use basic styling for the grid using bootstrap3 css.
 - Allow the players to click the grid to make their move, and highlight when the game is finished.
@@ -15,7 +14,7 @@ This simple project implement TicTacToe game with PHP CodeIgniter 3.x framework 
 - On mobile device, make the game full screen.
 - On desktop browser have the results of the last 5 matches on the right hand side – do this in bootstrap, not php.
 
----
+---------------------------------------------
 ## Installation
 
 1- Create database.
@@ -28,6 +27,11 @@ This simple project implement TicTacToe game with PHP CodeIgniter 3.x framework 
 ``
 and open your browser to http://localhost:8000
 
+--------------------------------------------
+## Specifications
+This project I run it under PHP 7.1.  for older PHP version I don’t know
+This project test implements TicTacToe game by using MySQL DB, PHP CodeIgniter-3 framework, Bootstrap CSS, and VUE JS framework.
+In PHP I have used the technical of the json post and the vue js for the user actions.
 -------------------------------------------------
 
 #### For the human player
@@ -77,5 +81,4 @@ This is the structure that will control the flow of the game and glue everything
 
 ## TODO
 Has some problem in single player with the level (midle and hard)
-
 

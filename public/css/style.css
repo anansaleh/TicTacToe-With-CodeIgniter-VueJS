@@ -1,0 +1,147 @@
+html, body, .container-fluid {            
+    height:100%;
+    padding:0px;margin:0px;
+}
+
+h1, h2, h3, h4 {
+    /*font-family: SouthPark, fantasy;*/
+    text-align: center;
+}
+.mainpanel {
+    width:100%;
+    height:100%;
+    padding:0px;margin:0px;
+}
+.page-header{
+	margin: 0px;
+	padding:0px;
+}
+
+
+.gameboard {
+    height: 100%;
+    margin: auto;
+}
+.gameboard .row{
+    height:29%;
+}
+.gameboard .turn{
+    height:13%;
+}
+.gameboard .btn-group{
+	margin-top: 2em;
+
+} 
+.gameboard .btn-group .btn{
+	font-size:2em;
+}
+.leftpanel {
+    height:100%;            
+    background-color:#ccc;
+}
+.rightpanel {
+    height:100%;
+    background-color:#ddd;
+}
+.rpanelheader {
+    text-align: center;
+    font-weight: bold;
+}
+.scoresheading div{
+    font-weight: bold;
+}
+.box {
+    border:1px solid #000;
+    height:100%;
+    text-align: center; 
+    width:33.33%;            
+    font-size:60px;
+    cursor:pointer;
+    /*background: #6AB187;*/
+}
+.box:hover{
+  background: #20948B;
+}
+.turn {
+    text-align:center;
+    padding-top:5px;            
+}        
+.middle { 
+	border: 1; 
+}
+
+.scores-box {
+    border:1px solid #000;
+    height:35px;
+    text-align: center; 
+    width:33.33%;            
+    font-size:25px;
+}
+
+/******************************/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /*text-align: center; */
+    width: 95%;
+    margin-bottom:15px;
+}
+.card .card-header{
+	background: #dddddd;
+	padding:5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .row {
+    margin: 0px 0px;
+    /*background: #dddddd;*/
+}
+.card-block .row{
+	/*background: #fff;*/
+}
+.card .winner{
+}
+/*****************************/
+.bottom, .top { 
+	border-bottom: 0; 
+	border-top: 0;
+}        
+
+.friend_computer {
+    height: 50%;
+    width:100%;
+}
+.friend_computer div {
+    text-align:center;
+    width:50%;
+    float:left;
+}
+.friend, .computer { 
+	height:100%;
+	padding-top:5px; 
+}
+.footer { 
+	height:100%; 
+}
+.footer .text-info { 
+	height:50%;
+}
+i {             
+    vertical-align: middle;
+}
+@media (min-width: 768px)            
+{
+     div[class^="gameboard"]{width: 70%;height:70%;}
+
+        .gameboard .row{
+            height:25%;
+        }
+        .gameboard .turn{
+            height:12.5%;
+        }
+        .box {
+            padding-top: 20px;
+        }
+}
